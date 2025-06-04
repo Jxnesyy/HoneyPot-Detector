@@ -1,0 +1,14 @@
+{
+  "contract": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+  "chain": "bsc",
+  "honeypot_patterns": [
+    {
+      "pattern": "disableSell",
+      "explanation": "Possible sell blocking (revert, require, or block in sell logic)."
+    },
+    {
+      "pattern": "antiBot",
+      "explanation": "Anti-bot or anti-sniper logic present."
+    }
+  ]
+}
